@@ -1,0 +1,7 @@
+name: geocat
+channels:
+  - conda-forge
+dependencies:
+  - geocat-comp
+  - geocat-viz
+  - uxarray
