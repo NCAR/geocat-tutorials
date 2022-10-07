@@ -6,8 +6,12 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
+import sys
+import os
 from sphinx.application import Sphinx
 
+sys.path.insert(0,
+                os.path.abspath('../'))  # Source code dir relative to this file
 
 project = 'geocat-tutorials'
 copyright = '2022, GeoCAT'
@@ -17,6 +21,7 @@ author = 'GeoCAT'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 extensions = [
     'myst_nb',
+    "nbsphinx",
     "sphinx_design",
 ]
 

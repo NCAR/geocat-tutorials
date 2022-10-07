@@ -9,4 +9,5 @@ dependencies:
   - sphinx
   - sphinx-book-theme
   - myst-nb
+  - nbsphinx
   - sphinx-design
