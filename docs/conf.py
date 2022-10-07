@@ -47,3 +47,9 @@ html_static_path = ['_static']
 # turn off notebook execution
 # set to "auto" for default behavior
 nb_execution_mode = "off"
+
+# pull in the notebooks from the source directory
+if os.path.exists("./notebooks/"):
+    os.system("rm -rf ./notebooks/")
+os.system("mkdir ./notebooks/")
+os.system("cp -r ../notebooks/*/*.ipynb ./notebooks/")

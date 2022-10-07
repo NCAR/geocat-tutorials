@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# duplicate notebooks for docs generation
+docs/notebooks/

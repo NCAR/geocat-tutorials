@@ -3,18 +3,13 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to geocat-tutorials's documentation!
-============================================
+GeoCAT-tutorials
+=================
+Welcome to GeoCAT-tutorials!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   :hidden:
+   :caption: GeoCAT-comp
+   
+   Climatology <./notebooks/climatology_avg.ipynb>
