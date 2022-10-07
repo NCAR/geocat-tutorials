@@ -11,4 +11,6 @@ Welcome to GeoCAT-tutorials!
    :maxdepth: 2
    :hidden:
    
+   GeoCAT-viz <viz>
    GeoCAT-comp <comp>
+   UXarray <uxarray>
