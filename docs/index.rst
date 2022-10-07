@@ -10,6 +10,5 @@ Welcome to GeoCAT-tutorials!
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: GeoCAT-comp
    
-   Climatology <./notebooks/climatology_avg.ipynb>
+   GeoCAT-comp <comp>

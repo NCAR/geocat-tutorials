@@ -8,13 +8,16 @@
 
 import sys
 import os
+import datetime
 from sphinx.application import Sphinx
 
 sys.path.insert(0,
                 os.path.abspath('../'))  # Source code dir relative to this file
 
 project = 'geocat-tutorials'
-copyright = '2022, GeoCAT'
+current_year = datetime.datetime.now().year
+copyright = u'{}, University Corporation for Atmospheric Research'.format(
+    current_year)
 author = 'GeoCAT'
 
 # -- General configuration ---------------------------------------------------
@@ -42,7 +45,22 @@ master_doc = 'index'
 html_theme = "sphinx_book_theme"
 html_title = ""
 
+html_theme_options = dict(
+    repository_url="https://github.com/NCAR/geocat-tutorials",
+    repository_branch="main",
+    path_to_docs="docs",
+    use_edit_page_button=True,
+    use_repository_button=True,
+    home_page_in_toc=False,
+    navbar_footer_text="",
+    extra_footer=
+    "<em>The National Center for Atmospheric Research is sponsored by the National Science Foundation. Any opinions, findings and conclusions or recommendations expressed in this material do not necessarily reflect the views of the National Science Foundation.</em>",
+)
+
+html_favicon = '../images/logos/GeoCAT_square.svg'
+html_logo = '../images/logos/GeoCAT_nsf.svg'
 html_static_path = ['_static']
+
 
 # turn off notebook execution
 # set to "auto" for default behavior

@@ -1,5 +1,7 @@
 # GeoCAT Tutorials
 
+[![Documentation Status](https://readthedocs.org/projects/geocat-tutorials/badge/?version=latest)](https://geocat-tutorials.readthedocs.io/en/latest/?badge=latest)
+
 ![GeoCAT logo](./images/logos/GeoCAT_long.svg)
 
 Tutorial content for GeoCAT software
