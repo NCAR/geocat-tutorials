@@ -9,3 +9,4 @@ dependencies:
   - uxarray
   - numpy
   - xarray
+  - nc-time-axis
