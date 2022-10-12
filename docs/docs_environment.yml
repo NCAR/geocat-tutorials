@@ -1,0 +1,9 @@
+name: geocat-docs
+channels:
+  - conda-forge
+dependencies:
+  - sphinx
+  - sphinx-book-theme
+  - myst-nb
+  - nbsphinx
+  - sphinx-design

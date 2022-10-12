@@ -3,11 +3,4 @@ channels:
   - conda-forge
 dependencies:
   - geocat-comp
-  - geocat-viz
   - uxarray
-  # dependencies for docs
-  - sphinx
-  - sphinx-book-theme
-  - myst-nb
-  - nbsphinx
-  - sphinx-design
