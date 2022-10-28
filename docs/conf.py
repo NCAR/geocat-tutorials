@@ -14,9 +14,6 @@ from sphinx.application import Sphinx
 sys.path.insert(0,
                 os.path.abspath('../'))  # Source code dir relative to this file
 
-sys.path.insert(0,
-                os.path.abspath('../notebooks'))  # Source code dir relative to this file
-
 # print path
 print(sys.path)
 
@@ -76,4 +73,3 @@ if os.path.exists("./notebooks/"):
     os.system("rm -rf ./notebooks/")
 os.system("mkdir ./notebooks/")
 os.system("cp -r ../notebooks/* ./notebooks/")
-os.system("tree")
