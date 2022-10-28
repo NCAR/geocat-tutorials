@@ -29,7 +29,6 @@ author = 'GeoCAT'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 extensions = [
-    'myst_nb',
     "nbsphinx",
     "sphinx_design",
 ]
@@ -38,9 +37,9 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 source_suffix = {
     '.rst': 'restructuredtext',
-    '.ipynb': 'myst-nb',
-    '.myst': 'myst-nb',
 }
+
+html_sourcelink_suffix = ''
 
 # The master toctree document.
 master_doc = 'index'
@@ -63,8 +62,8 @@ html_theme_options = dict(
     "<em>The National Center for Atmospheric Research is sponsored by the National Science Foundation. Any opinions, findings and conclusions or recommendations expressed in this material do not necessarily reflect the views of the National Science Foundation.</em>",
 )
 
-html_favicon = '../images/logos/GeoCAT_square.svg'
-html_logo = '../images/logos/GeoCAT_nsf.svg'
+html_favicon = '../notebooks/images/logos/GeoCAT_square.svg'
+html_logo = '../notebooks/images/logos/GeoCAT_nsf.svg'
 html_static_path = ['_static']
 
 
@@ -77,3 +76,4 @@ if os.path.exists("./notebooks/"):
     os.system("rm -rf ./notebooks/")
 os.system("mkdir ./notebooks/")
 os.system("cp -r ../notebooks/* ./notebooks/")
+os.system("tree")
