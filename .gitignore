@@ -130,3 +130,6 @@ dmypy.json
 
 # duplicate notebooks for docs generation
 docs/notebooks/
+
+# generated juoyter notebook slides
+*.slides.html
