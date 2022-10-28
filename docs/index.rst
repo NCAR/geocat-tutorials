@@ -11,8 +11,6 @@ Welcome to GeoCAT-tutorials!
    :maxdepth: 2
    :hidden:
 
-   <./notebooks/00-Overview.ipynb>
-
    GeoCAT <geocat>
    GeoCAT-viz <viz>
    GeoCAT-comp <comp>
