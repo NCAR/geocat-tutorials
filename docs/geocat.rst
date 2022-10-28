@@ -7,4 +7,4 @@ GeoCAT
     :maxdepth: 1
     :hidden:
 
-    GeoCAT <./notebooks/geocat/00_overview.ipynb>
+    GeoCAT <./notebooks/00_overview.ipynb>
