@@ -14,6 +14,12 @@ from sphinx.application import Sphinx
 sys.path.insert(0,
                 os.path.abspath('../'))  # Source code dir relative to this file
 
+sys.path.insert(0,
+                os.path.abspath('../notebooks'))  # Source code dir relative to this file
+
+# print path
+print(sys.path)
+
 project = 'geocat-tutorials'
 current_year = datetime.datetime.now().year
 copyright = u'{}, University Corporation for Atmospheric Research'.format(
@@ -64,10 +70,10 @@ html_static_path = ['_static']
 
 # turn off notebook execution
 # set to "auto" for default behavior
-nb_execution_mode = "off"
+nb_execution_mode = "auto"
 
 # pull in the notebooks and images from the source directory
-# if os.path.exists("./notebooks/"):
-#     os.system("rm -rf ./notebooks/")
-# os.system("mkdir ./notebooks/")
-# os.system("cp -r ../notebooks/ ./notebooks/")
+if os.path.exists("./notebooks/"):
+    os.system("rm -rf ./notebooks/")
+os.system("mkdir ./notebooks/")
+os.system("cp -r ../notebooks/ ./notebooks/")
