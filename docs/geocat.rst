@@ -7,5 +7,5 @@ GeoCAT
     :maxdepth: 1
     :hidden:
 
-    Overview <./notebooks/00-Overview.ipynb>
-    GeoCAT Project Structure <./notebooks/01-Structure.ipynb>
+    Overview <./notebooks/geocat/00-Overview.ipynb>
+    GeoCAT Project Structure <./notebooks/geocat/01-Structure.ipynb>
