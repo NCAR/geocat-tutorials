@@ -10,7 +10,8 @@ Welcome to GeoCAT-tutorials!
 .. toctree::
    :maxdepth: 2
    :hidden:
-   
+
+   GeoCAT <geocat>
    GeoCAT-viz <viz>
    GeoCAT-comp <comp>
    UXarray <uxarray>
