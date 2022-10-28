@@ -76,4 +76,4 @@ nb_execution_mode = "auto"
 if os.path.exists("./notebooks/"):
     os.system("rm -rf ./notebooks/")
 os.system("mkdir ./notebooks/")
-os.system("cp -r ../notebooks/ ./notebooks/")
+os.system("cp -r ../notebooks/* ./notebooks/")
