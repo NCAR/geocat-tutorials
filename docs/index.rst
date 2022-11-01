@@ -10,8 +10,26 @@ Welcome to GeoCAT-tutorials!
 .. toctree::
    :maxdepth: 2
    :hidden:
+   :caption: GeoCAT
 
-   GeoCAT <./notebooks/geocat/00-Overview.ipynb>
-   GeoCAT-viz <viz>
-   GeoCAT-comp <comp>
-   UXarray <uxarray>
+   Overview <./notebooks/geocat/00-Overview.ipynb>
+   GeoCAT Project Structure <./notebooks/geocat/01-Structure.ipynb>
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: GeoCAT-viz
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: GeoCAT-comp
+
+   Introduction <./notebooks/geocat-comp/00-Introduction.ipynb>
+   A Soft Starter: Relative Humidity <./notebooks/geocat-comp/01-using_geocat_comp.ipynb>
+   A More Complicated Example: Calculating Climatological Averages <./notebooks/geocat-comp/02-more_advanced_functionality.ipynb>
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: UXarray
