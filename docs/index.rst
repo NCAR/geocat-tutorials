@@ -11,7 +11,7 @@ Welcome to GeoCAT-tutorials!
    :maxdepth: 2
    :hidden:
 
-   GeoCAT <geocat>
+   GeoCAT <./notebooks/geocat/00-Overview.ipynb>
    GeoCAT-viz <viz>
    GeoCAT-comp <comp>
    UXarray <uxarray>
