@@ -35,3 +35,4 @@ Welcome to GeoCAT-tutorials!
    :caption: UXarray
 
    Intro to UXarray <./notebooks/uxarray/00-Introduction>
+   Reading In and Accessing Grid Data <./notebooks/uxarray/01-Read_access_grid_data>
