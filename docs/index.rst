@@ -26,7 +26,7 @@ presentation at the Fall 2022 ESDS event.
    :hidden:
    :caption: GeoCAT-comp
 
-   Introduction <./notebooks/geocat-comp/00-Introduction.ipynb>
+   Introduction to GeoCAT-comp <./notebooks/geocat-comp/00-intro_to_comp.ipynb>
    A Soft Starter: Max Daylight <./notebooks/geocat-comp/01-using_geocat_comp.ipynb>
    A More Complicated Example: Calculating Climatological Averages <./notebooks/geocat-comp/02-more_advanced_functionality.ipynb>
 
