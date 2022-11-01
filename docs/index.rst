@@ -5,7 +5,8 @@
 
 GeoCAT-tutorials
 =================
-Welcome to GeoCAT-tutorials!
+Welcome to GeoCAT-tutorials! This version of this content was made for 
+presentation at the Fall 2022 ESDS event.
 
 .. toctree::
    :maxdepth: 1
@@ -33,3 +34,25 @@ Welcome to GeoCAT-tutorials!
    :maxdepth: 1
    :hidden:
    :caption: UXarray
+
+
+.. grid:: 1 1 2 2
+    :gutter: 2
+
+    .. grid-item-card:: GeoCAT Overview
+         :link: ./notebooks/geocat/00-Overview.ipynb
+
+         GeoCAT team and projects
+
+    .. grid-item-card:: GeoCAT-viz
+   
+         GeoCAT's visualization library
+
+    .. grid-item-card:: GeoCAT-comp
+         :link: ./notebooks/geocat-comp/00-Introduction.ipynb
+
+         GeoCAT's computational library
+
+    .. grid-item-card:: UXarray
+        
+         Tools for unstructured grids
