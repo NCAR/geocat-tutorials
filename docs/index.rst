@@ -56,5 +56,6 @@ presentation at the Fall 2022 ESDS event.
          GeoCAT's computational library
 
     .. grid-item-card:: UXarray
+         :link: ./notebooks/uxarray/00-Introduction.ipynb
         
          Tools for unstructured grids
