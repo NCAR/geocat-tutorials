@@ -11,6 +11,7 @@ dependencies:
   - nbsphinx
   - sphinx-design
   # for notebook execution
+  - ipykernel
   - geocat-comp
   - geocat-viz
   - geocat-datafiles
