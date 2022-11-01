@@ -68,8 +68,18 @@ html_static_path = ['_static']
 # set to "auto" for default behavior
 nb_execution_mode = "auto"
 
+# Add any paths that contain custom static files (such as style sheets) here,
+# relative to this directory. They are copied after the builtin static files,
+# so a file named "default.css" will overwrite the builtin "default.css".
+html_static_path = ['_static']
+html_css_files = ["style.css"]
+
 # pull in the notebooks and images from the source directory
 if os.path.exists("./notebooks/"):
     os.system("rm -rf ./notebooks/")
 os.system("mkdir ./notebooks/")
 os.system("cp -r ../notebooks/* ./notebooks/")
+
+# Allow for changes to be made to the css in the theme_overrides file
+def setup(app):
+    app.add_css_file('theme_overrides.css')
