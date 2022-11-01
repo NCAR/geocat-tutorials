@@ -8,7 +8,7 @@ GeoCAT-tutorials
 Welcome to GeoCAT-tutorials!
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :hidden:
    :caption: GeoCAT
 
@@ -16,12 +16,12 @@ Welcome to GeoCAT-tutorials!
    GeoCAT Project Structure <./notebooks/geocat/01-Structure.ipynb>
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :hidden:
    :caption: GeoCAT-viz
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :hidden:
    :caption: GeoCAT-comp
 
@@ -30,6 +30,6 @@ Welcome to GeoCAT-tutorials!
    A More Complicated Example: Calculating Climatological Averages <./notebooks/geocat-comp/02-more_advanced_functionality.ipynb>
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :hidden:
    :caption: UXarray
