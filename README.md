@@ -2,8 +2,6 @@
 
 [![Documentation Status](https://readthedocs.org/projects/geocat-tutorials/badge/?version=latest)](https://geocat-tutorials.readthedocs.io/en/latest/?badge=latest)
 
-![GeoCAT logo](./notebooks/images/logos/GeoCAT_long.svg)
-
 Tutorial content for GeoCAT software
 
 ## Running the Tutorials
@@ -19,39 +17,39 @@ Tutorial content for GeoCAT software
 
 ### Local installation instructions
 
-#### 1. Clone the repository
+1. Clone the repository
 
-First clone this repository to your local machine via:
+    First clone this repository to your local machine via:
 
-```bash
-git clone https://github.com/NCAR/geocat-tutorials
-```
+    ```bash
+    git clone https://github.com/NCAR/geocat-tutorials
+    ```
 
-#### 2. Create a conda environment
+2. Create a conda environment
 
-Navigate to the `geocat-tutorials/` directory and create a new conda environment with:
+    Navigate to the `geocat-tutorials/` directory and create a new conda environment with:
 
-```bash
-cd geocat-tutorials
-conda env create -f environment.yml
-```
+    ```bash
+    cd geocat-tutorials
+    conda env create -f environment.yml
+    ```
 
-This will create a new conda environment named `geocat-tutorials`.
+    This will create a new conda environment named `geocat-tutorials`.
 
-#### 3. Activate the environment
+3. Activate the environment
 
-Next, activate your new environment with:
+    Next, activate your new environment with:
 
-```bash
-conda activate geocat-tutorials
-```
+    ```bash
+    conda activate geocat-tutorials
+    ```
 
-#### 4. Launch
+4. Launch
 
-Finally, launch jupyter locally with:
+    Finally, launch jupyter locally with:
 
-```bash
-jupyter lab
-```
+    ```bash
+    jupyter lab
+    ```
 
-and navigate to the `notebooks/` directory to view the tutorial notebooks.
+    and navigate to the `notebooks/` directory to view the tutorial notebooks.
