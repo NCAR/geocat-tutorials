@@ -26,8 +26,8 @@ presentation at the Fall 2022 ESDS event.
    :hidden:
    :caption: GeoCAT-comp
 
-   Introduction <./notebooks/geocat-comp/00-Introduction.ipynb>
-   A Soft Starter: Relative Humidity <./notebooks/geocat-comp/01-using_geocat_comp.ipynb>
+   Introduction to GeoCAT-comp <./notebooks/geocat-comp/00-intro_to_comp.ipynb>
+   A Soft Starter: Max Daylight <./notebooks/geocat-comp/01-using_geocat_comp.ipynb>
    A More Complicated Example: Calculating Climatological Averages <./notebooks/geocat-comp/02-more_advanced_functionality.ipynb>
 
 .. toctree::
@@ -51,7 +51,7 @@ presentation at the Fall 2022 ESDS event.
          GeoCAT's visualization library
 
     .. grid-item-card:: GeoCAT-comp
-         :link: ./notebooks/geocat-comp/00-Introduction.ipynb
+         :link: ./notebooks/geocat-comp/00-intro_to_comp.ipynb
 
          GeoCAT's computational library
 
