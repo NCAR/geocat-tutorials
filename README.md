@@ -11,6 +11,10 @@ Tutorial content for GeoCAT software
 | Binder | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/NCAR/geocat-tutorials/main) | Run the tutorial on binder without needing any local set up |
 | Local install |  [Instructions](#Local-installation-instructions)|Download the tutorial notebooks and install the necessary packages (via `conda`) locally. Setting things up locally can take a few minutes, so we recommend going through the installation steps prior to the tutorial.  |
 
+## See pre-run notebooks
+
+You can view fully rendered notebooks at the GeoCAT Tutorials [documentation pages](https://geocat-tutorials.readthedocs.io/en/latest/).
+
 ## Local installation instructions
 
 1. Clone the repository
