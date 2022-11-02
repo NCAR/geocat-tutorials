@@ -49,7 +49,7 @@ presentation at the Fall 2022 ESDS event.
          GeoCAT's visualization library
 
     .. grid-item-card:: GeoCAT-comp
-         :link: ./notebooks/geocat-comp/00-Introduction.ipynb
+         :link: ./notebooks/geocat-comp/00-intro_to_comp.ipynb
 
          GeoCAT's computational library
 
