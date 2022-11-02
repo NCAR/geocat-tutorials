@@ -35,6 +35,8 @@ presentation at the Fall 2022 ESDS event.
    :hidden:
    :caption: UXarray
 
+   Intro to UXarray <./notebooks/uxarray/00-Introduction>
+   Reading In and Accessing Grid Data <./notebooks/uxarray/01-Read_access_grid_data>
 
 .. grid:: 1 1 2 2
     :gutter: 2
@@ -54,5 +56,6 @@ presentation at the Fall 2022 ESDS event.
          GeoCAT's computational library
 
     .. grid-item-card:: UXarray
+         :link: ./notebooks/uxarray/00-Introduction.ipynb
         
          Tools for unstructured grids
