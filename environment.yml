@@ -1,4 +1,4 @@
-name: geocat
+name: geocat-tutorials
 channels:
   - conda-forge
 dependencies:
@@ -10,3 +10,5 @@ dependencies:
   - numpy
   - xarray
   - nc-time-axis
+  - jupyterlab
+  - jupyter_contrib_nbextensions

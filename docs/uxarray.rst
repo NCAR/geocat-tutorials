@@ -1,4 +1,0 @@
-.. _uxarray:
-
-UXarray Tutorials
-=================

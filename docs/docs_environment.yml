@@ -2,8 +2,22 @@ name: geocat-docs
 channels:
   - conda-forge
 dependencies:
+  - python<3.11
+  # for documentation generation
+  - ipython
   - sphinx
   - sphinx-book-theme
-  - myst-nb
+  - nbconvert>7.0.0
   - nbsphinx
   - sphinx-design
+  # for notebook execution
+  - ipykernel
+  - geocat-comp
+  - geocat-viz
+  - geocat-datafiles
+  - uxarray
+  - numpy
+  - xarray
+  - nc-time-axis
+  - cf_xarray
+  - cftime

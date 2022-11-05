@@ -5,12 +5,57 @@
 
 GeoCAT-tutorials
 =================
-Welcome to GeoCAT-tutorials!
+Welcome to GeoCAT-tutorials! This version of this content was made for 
+presentation at the Fall 2022 ESDS event.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :hidden:
+   :caption: GeoCAT
+
+   Overview <./notebooks/geocat/00-Overview.ipynb>
+   GeoCAT Project Structure <./notebooks/geocat/01-Structure.ipynb>
+
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+   :caption: GeoCAT-viz
+
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+   :caption: GeoCAT-comp
+
+   Introduction to GeoCAT-comp <./notebooks/geocat-comp/00-intro_to_comp.ipynb>
+   A Soft Starter: Max Daylight <./notebooks/geocat-comp/01-using_geocat_comp.ipynb>
+   A More Complicated Example: Calculating Climatological Averages <./notebooks/geocat-comp/02-more_advanced_functionality.ipynb>
+
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+   :caption: UXarray
+
+   Intro to UXarray <./notebooks/uxarray/00-Introduction>
+   Reading In and Accessing Grid Data <./notebooks/uxarray/01-Read_access_grid_data>
+
+.. grid:: 1 1 2 2
+    :gutter: 2
+
+    .. grid-item-card:: GeoCAT Overview
+         :link: ./notebooks/geocat/00-Overview.ipynb
+
+         GeoCAT team and projects
+
+    .. grid-item-card:: GeoCAT-viz
    
-   GeoCAT-viz <viz>
-   GeoCAT-comp <comp>
-   UXarray <uxarray>
+         GeoCAT's visualization library
+
+    .. grid-item-card:: GeoCAT-comp
+         :link: ./notebooks/geocat-comp/00-intro_to_comp.ipynb
+
+         GeoCAT's computational library
+
+    .. grid-item-card:: UXarray
+         :link: ./notebooks/uxarray/00-Introduction.ipynb
+        
+         Tools for unstructured grids
