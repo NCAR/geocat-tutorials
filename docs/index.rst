@@ -47,6 +47,7 @@ presentation at the Fall 2022 ESDS event.
          GeoCAT team and projects
 
     .. grid-item-card:: GeoCAT-viz
+         :link: ./notebooks/geocat-viz/Index_Links.ipynb
    
          GeoCAT's visualization library
 
