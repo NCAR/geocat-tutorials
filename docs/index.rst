@@ -21,6 +21,11 @@ presentation at the Fall 2022 ESDS event.
    :hidden:
    :caption: GeoCAT-viz
 
+   Outline <./notebooks/geocat-viz/Index_Links.ipynb>
+   An animation example <./notebooks/geocat-viz/NCL_animate_1.ipynb>
+   Contour plots <./notebooks/geocat-viz/NCL_conOncon_5.ipynb>
+   A more complex visualization <./notebooks/geocat-viz/NCL_taylor_6.ipynb>
+
 .. toctree::
    :maxdepth: 1
    :hidden:
