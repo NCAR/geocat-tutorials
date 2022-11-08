@@ -12,4 +12,3 @@ dependencies:
   - nc-time-axis
   - jupyterlab
   - jupyter_contrib_nbextensions
-  - siphon
