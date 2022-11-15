@@ -8,6 +8,9 @@ GeoCAT-tutorials
 Welcome to GeoCAT-tutorials! This version of this content was made for 
 presentation at the Fall 2022 ESDS event.
 
+Quick Navigation
+----------------
+
 .. toctree::
    :maxdepth: 1
    :hidden:
@@ -65,3 +68,16 @@ presentation at the Fall 2022 ESDS event.
          :link: ./notebooks/uxarray/00-Introduction.ipynb
         
          Tools for unstructured grids
+
+Event Versions
+--------------
+To see this tutorial as you may have seen it presented live, see the below 
+tagged documentation links. To see a list of releases on GitHub, go to the 
+`releases page <https://github.com/NCAR/geocat-tutorials/releases>`__.
+
++----------------------+------------------------------------------------------------------------------------------------------------+
+| Dates                | Link                                                                                                       |
++======================+============================================================================================================+
+| November 10-11 2022  | `A (Re)Introduction to Earth System Data Science <https://geocat-tutorials.readthedocs.io/en/2022.11.0/>`__|
++----------------------+------------------------------------------------------------------------------------------------------------+
+
