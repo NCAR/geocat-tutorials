@@ -5,8 +5,7 @@
 
 GeoCAT-tutorials
 =================
-Welcome to GeoCAT-tutorials! This version of this content was made for 
-presentation at the Fall 2022 ESDS event.
+Welcome to the AMS 2025 short course: Data Visualization in Python: Leveraging Community Tools for Earth System Science Across Scales
 
 Quick Navigation
 ----------------

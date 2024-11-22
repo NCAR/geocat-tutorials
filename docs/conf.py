@@ -47,22 +47,32 @@ master_doc = 'index'
 html_theme = "sphinx_book_theme"
 html_title = ""
 
-html_theme_options = dict(
-    repository_url="https://github.com/NCAR/geocat-tutorials",
-    repository_branch="main",
-    path_to_docs="docs",
-    use_edit_page_button=True,
-    use_repository_button=True,
-    home_page_in_toc=False,
-    navbar_footer_text="",
-    extra_footer=
-    "<em>The National Center for Atmospheric Research is sponsored by the National Science Foundation. Any opinions, findings and conclusions or recommendations expressed in this material do not necessarily reflect the views of the National Science Foundation.</em>",
-)
+html_theme_options = {
+    "repository_url":
+        "https://github.com/NCAR/geocat-tutorials",
+    "repository_branch":
+        "main",
+    "path_to_docs":
+        "docs",
+    "use_edit_page_button":
+        True,
+    "use_repository_button":
+        True,
+    "use_issues_button":
+        True,
+    "home_page_in_toc":
+        False,
+    "navbar_footer_text":
+        "",
+    "logo": {
+        "image_light": "../notebooks/images/logos/NSF_NCAR_light.png",
+        "image_dark": "../notebooks/images/logos/NSF_NCAR_dark.png",
+    },
+    "extra_footer":
+        "<em>The NSF National Center for Atmospheric Research (NSF NCAR) is sponsored by the U.S. National Science Foundation. Any opinions, findings and conclusions or recommendations expressed in this material do not necessarily reflect the views of the U.S. National Science Foundation.</em>",
+}
 
-html_favicon = '../notebooks/images/logos/GeoCAT_square.svg'
-html_logo = '../notebooks/images/logos/GeoCAT_nsf.svg'
-html_static_path = ['_static']
-
+html_favicon = "../notebooks/images/logos/GeoCAT_square.svg"
 
 # turn off notebook execution
 # set to "auto" for default behavior
@@ -79,6 +89,9 @@ if os.path.exists("./notebooks/"):
     os.system("rm -rf ./notebooks/")
 os.system("mkdir ./notebooks/")
 os.system("cp -r ../notebooks/* ./notebooks/")
+
+# exclude build directory from future builds
+exclude_patterns = ["./_build"]
 
 # Allow for changes to be made to the css in the theme_overrides file
 def setup(app):
