@@ -90,9 +90,6 @@ if os.path.exists("./notebooks/"):
 os.system("mkdir ./notebooks/")
 os.system("cp -r ../notebooks/* ./notebooks/")
 
-# exclude build directory from future builds
-exclude_patterns = ["./_build"]
-
 # Allow for changes to be made to the css in the theme_overrides file
 def setup(app):
     app.add_css_file('theme_overrides.css')
