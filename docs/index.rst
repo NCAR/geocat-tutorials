@@ -3,9 +3,9 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-GeoCAT-tutorials
-=================
-Welcome to the AMS 2025 short course: Data Visualization in Python: Leveraging Community Tools for Earth System Science Across Scales
+Data Visualization in Python: Leveraging Community Tools for Earth System Science Across Scales
+===============================================================================================
+Welcome to the AMS 2025 short course!
 
 Quick Navigation
 ----------------
@@ -48,30 +48,27 @@ Quick Navigation
 .. grid:: 1 1 2 2
     :gutter: 2
 
-    .. grid-item-card:: GeoCAT Overview
-         :link: ./notebooks/geocat/00-Overview.ipynb
+    .. grid-item-card:: GeoCAT Homepage
+         :link: https://geocat.ucar.edu
 
-         GeoCAT team and projects
+         Our team's homepage
 
     .. grid-item-card:: GeoCAT-viz
-         :link: ./notebooks/geocat-viz/Index_Links.ipynb
-   
+
          GeoCAT's visualization library
 
     .. grid-item-card:: GeoCAT-comp
-         :link: ./notebooks/geocat-comp/00-intro_to_comp.ipynb
 
          GeoCAT's computational library
 
     .. grid-item-card:: UXarray
-         :link: ./notebooks/uxarray/00-Introduction.ipynb
-        
+
          Tools for unstructured grids
 
 Event Versions
 --------------
-To see this tutorial as you may have seen it presented live, see the below 
-tagged documentation links. To see a list of releases on GitHub, go to the 
+To see this tutorial as you may have seen it presented live, see the below
+tagged documentation links. To see a list of releases on GitHub, go to the
 `releases page <https://github.com/NCAR/geocat-tutorials/releases>`__.
 
 - November 10-11 2022: `A (Re)Introduction to Earth System Data Science <https://geocat-tutorials.readthedocs.io/en/2022.11.0/>`__
