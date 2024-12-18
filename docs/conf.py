@@ -71,7 +71,7 @@ html_theme_options = {
         "<em>The NSF National Center for Atmospheric Research (NSF NCAR) is sponsored by the U.S. National Science Foundation. Any opinions, findings and conclusions or recommendations expressed in this material do not necessarily reflect the views of the U.S. National Science Foundation.</em>",
 }
 
-html_favicon = "GeoCAT_square.svg"
+html_favicon = "./_static/GeoCAT_square.svg"
 
 # turn off notebook execution
 # set to "auto" for default behavior
