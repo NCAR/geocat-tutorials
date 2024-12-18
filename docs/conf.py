@@ -67,8 +67,8 @@ html_theme_options = {
     "navbar_footer_text":
         "",
     "logo": {
-        "image_light": "../notebooks/images/logos/NSF_NCAR_light.png",
-        "image_dark": "../notebooks/images/logos/NSF_NCAR_dark.png",
+        "image_light": "./notebooks/images/logos/NSF_NCAR_light.png",
+        "image_dark": "./notebooks/images/logos/NSF_NCAR_dark.png",
     },
     "extra_footer":
         "<em>The NSF National Center for Atmospheric Research (NSF NCAR) is sponsored by the U.S. National Science Foundation. Any opinions, findings and conclusions or recommendations expressed in this material do not necessarily reflect the views of the U.S. National Science Foundation.</em>",
