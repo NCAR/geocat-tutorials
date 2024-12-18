@@ -20,26 +20,25 @@ Quick Navigation
    :maxdepth: 1
    :hidden:
 
+   Agenda <agenda>
+
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+
    Previous Events <previous-events>
 
 
 .. grid:: 1 1 2 2
     :gutter: 2
 
+    .. grid-item-card:: AMS Short Course Listing
+         :link: https://www.ametsoc.org/index.cfm/ams/education-careers/careers/professional-development/short-courses/data-visualization-in-python-leveraging-community-tools-for-earth-system-science-across-scales1
+
     .. grid-item-card:: GeoCAT Homepage
          :link: https://geocat.ucar.edu
 
-         Our team's homepage
+    .. grid-item-card:: Bonus card slot 3
 
-    .. grid-item-card:: GeoCAT-viz
-
-         GeoCAT's visualization library
-
-    .. grid-item-card:: GeoCAT-comp
-
-         GeoCAT's computational library
-
-    .. grid-item-card:: UXarray
-
-         Tools for unstructured grids
+    .. grid-item-card:: Bonus card slot 4
 
