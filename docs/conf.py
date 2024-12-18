@@ -11,9 +11,6 @@ import os
 import datetime
 from sphinx.application import Sphinx
 
-sys.path.insert(0,
-                os.path.abspath('../'))  # Source code dir relative to this file
-
 # print path
 print(sys.path)
 
@@ -67,14 +64,14 @@ html_theme_options = {
     "navbar_footer_text":
         "",
     "logo": {
-        "image_light": "./notebooks/images/logos/NSF_NCAR_light.png",
-        "image_dark": "./notebooks/images/logos/NSF_NCAR_dark.png",
+        "image_light": "NSF_NCAR_light.png",
+        "image_dark": "NSF_NCAR_dark.png",
     },
     "extra_footer":
         "<em>The NSF National Center for Atmospheric Research (NSF NCAR) is sponsored by the U.S. National Science Foundation. Any opinions, findings and conclusions or recommendations expressed in this material do not necessarily reflect the views of the U.S. National Science Foundation.</em>",
 }
 
-html_favicon = "../notebooks/images/logos/GeoCAT_square.svg"
+html_favicon = "GeoCAT_square.svg"
 
 # turn off notebook execution
 # set to "auto" for default behavior
@@ -85,12 +82,6 @@ nb_execution_mode = "auto"
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 html_css_files = ["style.css"]
-
-# pull in the notebooks and images from the source directory
-if os.path.exists("./notebooks/"):
-    os.system("rm -rf ./notebooks/")
-os.system("mkdir ./notebooks/")
-os.system("cp -r ../notebooks/* ./notebooks/")
 
 # Allow for changes to be made to the css in the theme_overrides file
 def setup(app):
