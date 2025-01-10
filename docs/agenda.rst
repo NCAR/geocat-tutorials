@@ -1,5 +1,6 @@
 .. _agenda:
 
+============
 Event Agenda
 ============
 
@@ -8,7 +9,7 @@ Event Agenda
     See the `published agenda outline <https://www.ametsoc.org/index.cfm/_api/render/file/?fileID=D38043E3-D4DA-5716-1DA436B430ACAFC2>`__ listed with the short course for a pdf version.
 
 Section 1
----------
+=========
 .. list-table::
     :header-rows: 1
 
@@ -34,7 +35,7 @@ Section 1
       - 10 min
 
 Section 2
----------
+=========
 .. list-table::
     :header-rows: 1
 
@@ -56,7 +57,7 @@ Section 2
       - 10 min
 
 Section 3
----------
+=========
 .. list-table::
     :header-rows: 1
 

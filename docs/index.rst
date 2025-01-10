@@ -3,6 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+===============================================================================================
 Data Visualization in Python: Leveraging Community Tools for Earth System Science Across Scales
 ===============================================================================================
 Welcome to the AMS 2025 short course!

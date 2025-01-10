@@ -1,5 +1,6 @@
 .. _previous-events:
 
+===============
 Previous Events
 ===============
 

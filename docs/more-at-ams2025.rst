@@ -1,11 +1,12 @@
 .. _more-at-ams2025:
 
+================
 More at AMS 2025
 ================
 
 
 Talks
------
+=====
 
 * `FAIR Skies Ahead: Citable and Reproducible Geoscience Educational and Research Workflows with Project Pythia <https://ams.confex.com/ams/105ANNUAL/meetingapp.cgi/Paper/457336>`__
 
@@ -40,7 +41,7 @@ Talks
   Wednesday, January 15, 2025 5:15 PM - 5:30 PM - Convention Center (Room: 213)
 
 Posters
--------
+=======
 
 * `Scaling UXarray: Bridging the Gap for High-Performance Unstructured Grid Analysis <https://ams.confex.com/ams/105ANNUAL/meetingapp.cgi/Paper/458589>`__
 
