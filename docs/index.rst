@@ -15,17 +15,9 @@ Quick Navigation
    :hidden:
 
    Home <self>
-
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-
    Agenda <agenda>
-
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-
+   Resources <resources>
+   More at AMS2025 <more-at-ams2025>
    Previous Events <previous-events>
 
 
