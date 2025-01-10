@@ -3,10 +3,10 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-GeoCAT-tutorials
-=================
-Welcome to GeoCAT-tutorials! This version of this content was made for 
-presentation at the Fall 2022 ESDS event.
+===============================================================================================
+Data Visualization in Python: Leveraging Community Tools for Earth System Science Across Scales
+===============================================================================================
+Welcome to the AMS 2025 short course!
 
 Quick Navigation
 ----------------
@@ -14,65 +14,24 @@ Quick Navigation
 .. toctree::
    :maxdepth: 1
    :hidden:
-   :caption: GeoCAT
 
-   Overview <./notebooks/geocat/00-Overview.ipynb>
-   GeoCAT Project Structure <./notebooks/geocat/01-Structure.ipynb>
+   Home <self>
+   Agenda <agenda>
+   Resources <resources>
+   More at AMS 2025 <more-at-ams2025>
+   Previous Events <previous-events>
 
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-   :caption: GeoCAT-viz
-
-   Outline <./notebooks/geocat-viz/Index_Links.ipynb>
-   An animation example <./notebooks/geocat-viz/NCL_animate_1.ipynb>
-   Contour plots <./notebooks/geocat-viz/NCL_conOncon_5.ipynb>
-   A more complex visualization <./notebooks/geocat-viz/NCL_taylor_6.ipynb>
-
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-   :caption: GeoCAT-comp
-
-   Introduction to GeoCAT-comp <./notebooks/geocat-comp/00-intro_to_comp.ipynb>
-   A Soft Starter: Max Daylight <./notebooks/geocat-comp/01-using_geocat_comp.ipynb>
-   A More Complicated Example: Calculating Climatological Averages <./notebooks/geocat-comp/02-more_advanced_functionality.ipynb>
-
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-   :caption: UXarray
-
-   Intro to UXarray <./notebooks/uxarray/00-Introduction>
-   Reading In and Accessing Grid Data <./notebooks/uxarray/01-Read_access_grid_data>
 
 .. grid:: 1 1 2 2
     :gutter: 2
 
-    .. grid-item-card:: GeoCAT Overview
-         :link: ./notebooks/geocat/00-Overview.ipynb
+    .. grid-item-card:: AMS Short Course Listing
+         :link: https://www.ametsoc.org/index.cfm/ams/education-careers/careers/professional-development/short-courses/data-visualization-in-python-leveraging-community-tools-for-earth-system-science-across-scales1
 
-         GeoCAT team and projects
+    .. grid-item-card:: GeoCAT Homepage
+         :link: https://geocat.ucar.edu
 
-    .. grid-item-card:: GeoCAT-viz
-         :link: ./notebooks/geocat-viz/Index_Links.ipynb
-   
-         GeoCAT's visualization library
+    .. grid-item-card:: Bonus card slot 3
 
-    .. grid-item-card:: GeoCAT-comp
-         :link: ./notebooks/geocat-comp/00-intro_to_comp.ipynb
+    .. grid-item-card:: Bonus card slot 4
 
-         GeoCAT's computational library
-
-    .. grid-item-card:: UXarray
-         :link: ./notebooks/uxarray/00-Introduction.ipynb
-        
-         Tools for unstructured grids
-
-Event Versions
---------------
-To see this tutorial as you may have seen it presented live, see the below 
-tagged documentation links. To see a list of releases on GitHub, go to the 
-`releases page <https://github.com/NCAR/geocat-tutorials/releases>`__.
-
-- November 10-11 2022: `A (Re)Introduction to Earth System Data Science <https://geocat-tutorials.readthedocs.io/en/2022.11.0/>`__
