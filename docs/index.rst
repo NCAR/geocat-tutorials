@@ -18,7 +18,7 @@ Quick Navigation
    Home <self>
    Agenda <agenda>
    Resources <resources>
-   More at AMS2025 <more-at-ams2025>
+   More at AMS 2025 <more-at-ams2025>
    Previous Events <previous-events>
 
 
