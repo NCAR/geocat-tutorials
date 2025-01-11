@@ -9,7 +9,7 @@ Support
 =======
 * `Open Science & Data Help Desk <https://www.esipfed.org/data-help-desk/>`__
 
-  Monday - Thursday, January 13 - 16, 2025 - Convention Center (Exhibit Hall Booth: 431)
+  Monday, January 13 - Thursday, January 16, 2025 - Convention Center (Exhibit Hall Booth: 431)
 
 Talks
 =====
