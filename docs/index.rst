@@ -36,7 +36,7 @@ Quick Navigation
     .. grid-item-card:: AMS Short Course Listing
          :link: https://www.ametsoc.org/index.cfm/ams/education-careers/careers/professional-development/short-courses/data-visualization-in-python-leveraging-community-tools-for-earth-system-science-across-scales1
 
-    .. grid-item-card:: What else to see at AMS 2025
+    .. grid-item-card:: More at AMS 2025
          :link: more-at-ams2025
          :link-type: doc
 
