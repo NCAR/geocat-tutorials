@@ -15,6 +15,10 @@ Event Agenda
       - Topic
       - Duration
       - Material
+    * - 08:00
+      - Introduction and Logistics
+      - 20 min
+      - `Slides <https://docs.google.com/presentation/d/1Rp96UQuLuA9iyP8aPPEe0XQRr9k0o_h9FTKxMx7h_jw/edit?usp=sharing>`__
     * - 08:20
       - Section 1: Intro to Data Visualization
       - 90 min
