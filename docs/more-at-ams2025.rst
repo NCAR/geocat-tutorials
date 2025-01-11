@@ -11,8 +11,8 @@ Support
 
   Monday, January 13 - Thursday, January 16, 2025 - Convention Center (Exhibit Hall Booth: 431)
 
-Town Halls
-==========
+Town Hall
+=========
 * `NSF NCAR’s advanced computing, data services, software and educational resources for earth system science <https://ams.confex.com/ams/105ANNUAL/meetingapp.cgi/Session/69075>`__
 
   Tuesday, January 14, 2025 12:15 PM - 1:15 PM - Convention Center (Room: 222)
